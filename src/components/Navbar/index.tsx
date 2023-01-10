@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/react";
 type NavbarProps = {};
 
 const Navbar: React.FC<NavbarProps> = () => {
-  return <Box>Hello000</Box>;
+  return <Box>Hellooooo</Box>;
 };
 
 export default Navbar;
