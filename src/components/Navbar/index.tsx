@@ -11,9 +11,8 @@ const Navbar: React.FC<NavbarProps> = () => {
       mt="19px"
       mr="16px"
       gap="15px"
-      float="right"
       w="auto"
-      justify="center"
+      justify="end"
       align="center"
       fontSize="15px"
     >
