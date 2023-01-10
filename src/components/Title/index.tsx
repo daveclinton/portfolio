@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Divider, Flex, Heading, Text } from "@chakra-ui/react";
 
 type TitleProps = {};
 
@@ -16,6 +16,7 @@ const Title: React.FC<TitleProps> = () => {
       >
         Clinton David
       </Heading>
+      <Divider borderColor="#476894" mt="20px" />
     </Flex>
   );
 };
