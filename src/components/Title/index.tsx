@@ -11,8 +11,8 @@ const Title: React.FC<TitleProps> = () => {
       </Text>
       <Heading
         color="#476894"
-        fontSize="57px"
-        textShadow="1px 0 0 #2e5b97, -4px -5px 0 rgb(0 133 255 / 3%)"
+        fontSize={{ base: "37px", md: "57px" }}
+        textShadow="1px 0 0 #2e5b97, -4px -5px 0 rgb(0 133 255 / 3%"
       >
         Clinton David
       </Heading>
