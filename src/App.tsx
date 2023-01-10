@@ -5,7 +5,9 @@ import Blog from "./pages/blog";
 import Home from "./pages/Home";
 import About from "./pages/About";
 
-export const App = () => (
+type AppProps = {};
+
+export const App: React.FC<AppProps> = () => (
   <ChakraProvider theme={theme}>
     <Router>
       <Routes>
