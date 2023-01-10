@@ -7,7 +7,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <Flex>
       <Link>Blog</Link>
-      <Link>Blog</Link>
+      <Link>About</Link>
     </Flex>
   );
 };
