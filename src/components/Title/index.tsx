@@ -7,7 +7,7 @@ const Title: React.FC<TitleProps> = () => {
   return (
     <Flex w="auto" justifyContent="center" align="center" flexDir="column">
       <Text color="#00294d" fontSize="17px">
-        The Strategies of
+        Get to Know
       </Text>
       <Heading
         color="#476894"
