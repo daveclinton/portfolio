@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = () => {
         fontSize="15px"
       >
         <Link>Blog</Link>
-        <Link>About</Link>
+        <Link href="/about">About</Link>
         <ColorModeSwitcher justifySelf="flex-end" />
       </Flex>
     </Box>
