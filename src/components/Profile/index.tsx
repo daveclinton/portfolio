@@ -41,15 +41,21 @@ const Profile: React.FC<ProfileProps> = () => {
         <Divider borderColor="#476894" mt="20px" />
         <Text mt="10px">
           Hey! Feel free to tweet me:{" "}
-          <Link href="" color="#476894">
-            @daveclintonn.
+          <Link href="">
+            <strong>@daveclintonn.</strong>
           </Link>
         </Text>
         <Text>
           I am a Software A developer with over 2 years of experience in
-          developing impactful web applications. A team collaborator aiming at
+          developing impactful web applications.A team collaborator aiming at
           working with teams to efficiently handle building of systems from
           ideation to production.
+        </Text>
+        <Text mt="10px">
+          Check out my professional experience:
+          <Link href="https://www.linkedin.com/in/clintondavid46/">
+            <strong> @LinkedIn!</strong>
+          </Link>
         </Text>
         <Heading as="h3" color="#476894" justifyContent="start" mt="20px">
           Knowledge and Skills
@@ -70,7 +76,7 @@ const Profile: React.FC<ProfileProps> = () => {
                     justifyContent="start"
                     mt="20px"
                   >
-                    Software Development
+                    Software Developer
                   </Heading>
                   <AccordionIcon />
                 </AccordionButton>
@@ -113,8 +119,7 @@ const Profile: React.FC<ProfileProps> = () => {
                 </ListItem>
               </AccordionPanel>
             </AccordionItem>
-          </Accordion>
-          <Accordion allowToggle>
+
             <AccordionItem>
               <Heading>
                 <AccordionButton>
@@ -155,8 +160,7 @@ const Profile: React.FC<ProfileProps> = () => {
                 </ListItem>
               </AccordionPanel>
             </AccordionItem>
-          </Accordion>
-          <Accordion allowToggle>
+
             <AccordionItem>
               <Heading>
                 <AccordionButton>
@@ -198,8 +202,7 @@ const Profile: React.FC<ProfileProps> = () => {
                 </ListItem>
               </AccordionPanel>
             </AccordionItem>
-          </Accordion>
-          <Accordion allowToggle>
+
             <AccordionItem>
               <Heading>
                 <AccordionButton>
@@ -212,7 +215,7 @@ const Profile: React.FC<ProfileProps> = () => {
                     justifyContent="start"
                     mt="20px"
                   >
-                    WordPress full-stack developer
+                    WordPress Developer
                   </Heading>
                   <AccordionIcon />
                 </AccordionButton>
