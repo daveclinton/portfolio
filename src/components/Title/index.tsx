@@ -1,19 +1,18 @@
 import * as React from "react";
 import { Divider, Flex, Heading, Text } from "@chakra-ui/react";
+import { useLocation } from "react-router-dom";
 
 type TitleProps = {};
 
 const Title: React.FC<TitleProps> = () => {
+  const location = useLocation();
+  const path = location.pathname;
   return (
     <Flex w="auto" justifyContent="center" align="center" flexDir="column">
       <Text color="#00294d" fontSize="17px">
-        Get to Know
+        {path === "/about" ? "Get to Know" : "The Productivity Strategies of "}
       </Text>
-      <Heading
-        color="#476894"
-        fontSize={{ base: "37px", md: "57px" }}
-        textShadow="1px 0 0 #2e5b97, -4px -5px 0 rgb(0 133 255 / 3%"
-      >
+      <Heading color="#476894" fontSize={{ base: "37px", md: "57px" }}>
         Clinton David
       </Heading>
       <Divider borderColor="#476894" mt="20px" />
