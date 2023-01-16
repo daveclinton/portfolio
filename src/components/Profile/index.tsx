@@ -72,7 +72,15 @@ const Profile: React.FC<ProfileProps> = () => {
           Knowledge and Skills
         </Heading>
         <Divider borderColor="#476894" mt="20px" mb="20px" />
-        <Text>I am always eager to know more</Text>
+        <Text
+          fontSize="14px"
+          letterSpacing="2px"
+          fontWeight={200}
+          mb="10px"
+          textAlign="center"
+        >
+          I am always eager to know more
+        </Text>
         <UnorderedList>
           <Accordion allowToggle>
             <AccordionItem>
