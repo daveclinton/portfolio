@@ -34,8 +34,13 @@ const Profile: React.FC<ProfileProps> = () => {
         borderRadius="full"
         sx={{ border: "8px solid #476894" }}
       />
-      <Flex flexDir="column" maxW={{ base: "400px", md: "650px" }}>
-        <Heading as="h3" color="#476894" justifyContent="start">
+      <Flex flexDir="column" maxW={{ base: "350px", md: "650px" }}>
+        <Heading
+          as="h3"
+          color="#476894"
+          justifyContent="start"
+          fontSize={{ base: "30px", lg: "34px" }}
+        >
           Contact
         </Heading>
         <Divider borderColor="#476894" mt="20px" />
@@ -57,11 +62,25 @@ const Profile: React.FC<ProfileProps> = () => {
             <strong> @LinkedIn!</strong>
           </Link>
         </Text>
-        <Heading as="h3" color="#476894" justifyContent="start" mt="20px">
+        <Heading
+          as="h3"
+          color="#476894"
+          justifyContent="start"
+          mt="20px"
+          fontSize={{ base: "30px", lg: "34px" }}
+        >
           Knowledge and Skills
         </Heading>
         <Divider borderColor="#476894" mt="20px" mb="20px" />
-        <Text>I am always eager to know more</Text>
+        <Text
+          fontSize="14px"
+          letterSpacing="2px"
+          fontWeight={200}
+          mb="10px"
+          textAlign="center"
+        >
+          I am always eager to know more
+        </Text>
         <UnorderedList>
           <Accordion allowToggle>
             <AccordionItem>
