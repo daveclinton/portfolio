@@ -26,9 +26,9 @@ const Footer: React.FC<FooterProps> = () => {
         <Heading as="h3" fontSize="24px" lineHeight="3rem">
           Clinton David
         </Heading>
-        <Text maxW="500px" m="5px auto" lineHeight="28px" fontSize="14px">
-          Lorem ipsum is placeholder text commonly used in the graphic, print,
-          and publishing
+        <Text maxW="500px" lineHeight="28px" fontSize="14px">
+          Be sure to check out my social media pages for more updates and
+          portfolio pieces on my website.
         </Text>
         <UnorderedList
           listStyleType="none"
