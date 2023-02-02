@@ -20,9 +20,9 @@ const Navbar: React.FC<NavbarProps> = () => {
         align="center"
         fontSize="15px"
       >
-        {path === "/" ? null : <Link href="/">Home</Link>}
+        {path === "/" ? null : <Link href="#">Home</Link>}
         <Link>Blog</Link>
-        <Link href="/about">About</Link>
+        <Link href="/">About</Link>
         <ColorModeSwitcher justifySelf="flex-end" />
       </Flex>
     </Box>

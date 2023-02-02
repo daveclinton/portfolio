@@ -11,9 +11,9 @@ export const App: React.FC<AppProps> = () => (
   <ChakraProvider theme={theme}>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </Router>
   </ChakraProvider>
