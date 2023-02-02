@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = () => {
         align="center"
         fontSize="15px"
       >
-        {path === "/" ? null : <Link href="#">Home</Link>}
+        {path === "/home" ? null : <Link href="#">Home</Link>}
         <Link>Blog</Link>
         <Link href="/">About</Link>
         <ColorModeSwitcher justifySelf="flex-end" />
