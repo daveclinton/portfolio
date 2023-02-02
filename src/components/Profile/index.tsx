@@ -28,7 +28,7 @@ const Profile: React.FC<ProfileProps> = () => {
       <Image src={Underline} boxShadow="20px" mt="-40px" />
       <Image
         src={MyProfile}
-        alt="Dan Abramov"
+        alt="David Clinton"
         mt="40px"
         boxSize="300px"
         borderRadius="full"
@@ -46,13 +46,13 @@ const Profile: React.FC<ProfileProps> = () => {
         <Divider borderColor="#476894" mt="20px" />
         <Text mt="10px">
           Hey! Feel free to tweet me:{" "}
-          <Link href="">
+          <Link href="https://twitter.com/daveclintonn">
             <strong>@daveclintonn.</strong>
           </Link>
         </Text>
         <Text>
-          I am a Software A developer with over 2 years of experience in
-          developing impactful web applications.A team collaborator aiming at
+          I am a Software Developer with over 2 years of experience in
+          developing impactful web applications. A team collaborator aiming at
           working with teams to efficiently handle building of systems from
           ideation to production.
         </Text>
