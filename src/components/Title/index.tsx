@@ -10,7 +10,7 @@ const Title: React.FC<TitleProps> = () => {
   return (
     <Flex w="auto" justifyContent="center" align="center" flexDir="column">
       <Text color="#00294d" fontSize="17px">
-        {path === "/about" ? "Get to Know" : "The Productivity Strategies of "}
+        {path === "/" ? "Get to Know" : "The Productivity Strategies of "}
       </Text>
       <Heading color="#476894" fontSize={{ base: "37px", md: "57px" }}>
         Clinton David
