@@ -1,0 +1,17 @@
+.navbar-brand{
+    color: #7f96fe;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.navbar{
+    background-color: #eeeeee;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-item{
+    padding-right: 25px;
+}

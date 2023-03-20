@@ -1,0 +1,87 @@
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+.myName{
+    color: #6C63FF;
+}
+
+.downloadCvBtn{
+    background-color: #6C63FF;
+    color: white;
+}
+
+.instaIcon{
+    width: 50px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.instaIcon:hover{
+    transform: scale(1.2);
+}
+
+.socialMediaIcons{
+    width: 185px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -24px;
+}
+
+.newsltrSection{
+    /* background-color: #6C63FF; */
+}
+
+.img-fluid{
+    width: 40% !important;
+}
+
+.left{
+    width: 100%;
+}
+
+.left > h2{
+    font-size: 2.5rem;
+}
+
+.left > p{
+    font-size: 1.2rem;
+}
+
+.home-section{
+    display: flex;
+    align-items: center;
+}
+
+.buttonsHome{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialIcons{
+    /* margin-left: -22px; */
+    margin-top: 10px;
+}
+
+
+ @media only screen and (min-width: 340px) and (max-width:575px){
+    .buttonsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1650px){
+
+    .socialIcons{
+        margin-left: -22px;
+    }
+
+}
