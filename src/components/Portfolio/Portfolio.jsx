@@ -1,22 +1,18 @@
-import React, {useEffect} from 'react'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-import './Portfolio.css'
-import textEditorImage from '../../Assets/TextEditor.png'
-import weatherAppImage from '../../Assets/WeatherApp.png'
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./Portfolio.css";
+import textEditorImage from "../../Assets/TextEditor.png";
+import weatherAppImage from "../../Assets/WeatherApp.png";
 // import QuotesGenImage from '../../Assets/QuotesGen.png'
-import githubSearch from '../../Assets/githubSearch.png'
-import rating from '../../Assets/rating.png'
-import NewsApp from '../../Assets/NewsApp.png'
-
-
+import githubSearch from "../../Assets/githubSearch.png";
+import rating from "../../Assets/rating.png";
+import NewsApp from "../../Assets/NewsApp.png";
 
 function Portfolio(props) {
-  
-  
   useEffect(() => {
     Aos.init({ duration: 2000 });
-}, []);
+  }, []);
 
   return (
     <>
@@ -27,7 +23,7 @@ function Portfolio(props) {
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#6c63ff"
+            fill="#a9792b"
             fill-opacity="1"
             d="M0,192L60,170.7C120,149,240,107,360,101.3C480,96,600,128,720,165.3C840,203,960,245,1080,229.3C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
@@ -54,7 +50,7 @@ function Portfolio(props) {
                 <img className="portfolioImg" src={NewsApp} alt="" />
               </a>
               <div className="card-body">
-                <h5 className="card-title" style={{ color: "#6c63ff" }}>
+                <h5 className="card-title" style={{ color: "#a9792b" }}>
                   News App
                 </h5>
                 <p className="card-text">
@@ -88,7 +84,7 @@ function Portfolio(props) {
                 <img className="portfolioImg" src={githubSearch} alt="" />
               </a>
               <div className="card-body">
-                <h5 className="card-title" style={{ color: "#6c63ff" }}>
+                <h5 className="card-title" style={{ color: "#a9792b" }}>
                   Github User Search
                 </h5>
                 <p className="card-text">
@@ -122,7 +118,7 @@ function Portfolio(props) {
                 <img className="portfolioImg" src={textEditorImage} alt="" />
               </a>
               <div className="card-body">
-                <h5 className="card-title" style={{ color: "#6c63ff" }}>
+                <h5 className="card-title" style={{ color: "#a9792b" }}>
                   Text Editor
                 </h5>
                 <p className="card-text">
@@ -156,7 +152,7 @@ function Portfolio(props) {
                 <img className="portfolioImg" src={rating} alt="" />
               </a>
               <div className="card-body">
-                <h5 className="card-title" style={{ color: "#6c63ff" }}>
+                <h5 className="card-title" style={{ color: "#a9792b" }}>
                   Rating Component
                 </h5>
                 <p className="card-text">
@@ -190,7 +186,7 @@ function Portfolio(props) {
                 <img className="portfolioImg" src={weatherAppImage} alt="" />
               </a>
               <div className="card-body">
-                <h5 className="card-title" style={{ color: "#6c63ff" }}>
+                <h5 className="card-title" style={{ color: "#a9792b" }}>
                   Weather App
                 </h5>
                 <p className="card-text">
@@ -217,7 +213,7 @@ function Portfolio(props) {
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#6c63ff"
+            fill="#a9792b"
             fill-opacity="1"
             d="M0,192L60,170.7C120,149,240,107,360,101.3C480,96,600,128,720,165.3C840,203,960,245,1080,229.3C1200,213,1320,139,1380,101.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
           ></path>
@@ -227,4 +223,4 @@ function Portfolio(props) {
   );
 }
 
-export default Portfolio
+export default Portfolio;
