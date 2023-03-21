@@ -31,12 +31,12 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <a href="#portfolio" className="nav-link">
-                  Portfolio
+                  Commits
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#about" className="nav-link">
-                  About
+                  README.md
                 </a>
               </li>
               <li className="nav-item">

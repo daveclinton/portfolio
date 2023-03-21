@@ -2,12 +2,6 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Portfolio.css";
-import textEditorImage from "../../Assets/TextEditor.png";
-import weatherAppImage from "../../Assets/WeatherApp.png";
-// import QuotesGenImage from '../../Assets/QuotesGen.png'
-import githubSearch from "../../Assets/githubSearch.png";
-import rating from "../../Assets/rating.png";
-import NewsApp from "../../Assets/NewsApp.png";
 
 function Portfolio(props) {
   useEffect(() => {
@@ -31,7 +25,7 @@ function Portfolio(props) {
       </div>
 
       <div className="portfolio" id="portfolio">
-        <h2 className="portfolioHeading">Portfolio</h2>
+        <h2 className="portfolioHeading">COMMITS</h2>
         <div className="row">
           <div className="cardContainer">
             <div
@@ -46,24 +40,21 @@ function Portfolio(props) {
                 border: props.mode === "light" ? "whitesmoke" : "#404040",
               }}
             >
-              <a href="https://github.com/vaibhavprasad54/around-the-globe">
-                <img className="portfolioImg" src={NewsApp} alt="" />
-              </a>
               <div className="card-body">
                 <h5 className="card-title" style={{ color: "#a9792b" }}>
-                  News App
+                  Paperspace
                 </h5>
                 <p className="card-text">
-                  This news app keeps you updated with the news of different
-                  trending categories from all over the world!
+                  Here, I share my paid paperspace articles. Paperspace is the
+                  platform for AI developers providing the speed and scale
+                  needed to take AI models from concept to production.
                 </p>
                 <a
-                  href="https://github.com/vaibhavprasad54/around-the-globe"
+                  href="https://blog.paperspace.com/author/david-clinton/"
                   className="btn cardBtn"
                   target="#"
                 >
-                  {" "}
-                  <i class="fa-brands fa-github"></i> Github
+                  Read Articles
                 </a>
               </div>
             </div>
@@ -80,58 +71,21 @@ function Portfolio(props) {
                 border: props.mode === "light" ? "whitesmoke" : "#404040",
               }}
             >
-              <a href="https://vaibhavprasad54.github.io/Github-User-Search/">
-                <img className="portfolioImg" src={githubSearch} alt="" />
-              </a>
               <div className="card-body">
                 <h5 className="card-title" style={{ color: "#a9792b" }}>
-                  Github User Search
+                  Medium Artcles
                 </h5>
                 <p className="card-text">
-                  This app displays the github user we search for by fetching it
-                  from the Github API.
+                  Here, I share my insights on Frontend Development with a focus
+                  on React and TypeScript. Join me as I delve into the latest
+                  trends and best practices in this exciting field.
                 </p>
                 <a
-                  href="https://github.com/vaibhavprasad54/Github-User-Search"
+                  href="https://medium.com/@clintondavid46"
                   className="btn cardBtn"
                   target="#"
                 >
-                  {" "}
-                  <i class="fa-brands fa-github"></i> Github
-                </a>
-              </div>
-            </div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-duration="700"
-              className="card"
-              style={{
-                width: "17.5rem",
-                color: props.mode === "light" ? "black" : "whitesmoke",
-                backgroundColor: props.mode === "light" ? "#f4f4f4" : "#313131",
-                border: props.mode === "light" ? "whitesmoke" : "#404040",
-              }}
-            >
-              <a href="https://vaibhavprasad54.github.io/Text-Editor/">
-                <img className="portfolioImg" src={textEditorImage} alt="" />
-              </a>
-              <div className="card-body">
-                <h5 className="card-title" style={{ color: "#a9792b" }}>
-                  Text Editor
-                </h5>
-                <p className="card-text">
-                  This dark mode enabled text editor app edits your text the way
-                  you want and copies it for you!
-                </p>
-                <a
-                  href="https://github.com/vaibhavprasad54/Text-Editor"
-                  className="btn cardBtn"
-                  target="#"
-                >
-                  {" "}
-                  <i class="fa-brands fa-github"></i> Github
+                  Read Articles
                 </a>
               </div>
             </div>
@@ -148,19 +102,17 @@ function Portfolio(props) {
                 border: props.mode === "light" ? "whitesmoke" : "#404040",
               }}
             >
-              <a href="https://vaibhavprasad54.github.io/rating-component/">
-                <img className="portfolioImg" src={rating} alt="" />
-              </a>
               <div className="card-body">
                 <h5 className="card-title" style={{ color: "#a9792b" }}>
-                  Rating Component
+                  My Personal Blog
                 </h5>
                 <p className="card-text">
-                  A rating component made using Javascript similar to the ones
-                  on food delivery apps.
+                  To improve your experience, I am currently working on the
+                  backend of this application to provide a seamless experience.
+                  I am utilizing Node Express and MongoDB.
                 </p>
                 <a
-                  href="https://github.com/vaibhavprasad54/rating-component"
+                  href="https://github.com/daveclinton/blog-backend"
                   className="btn cardBtn"
                   target="#"
                 >
@@ -169,10 +121,9 @@ function Portfolio(props) {
                 </a>
               </div>
             </div>
-
             <div
               data-aos="zoom-in"
-              data-aos-delay="400"
+              data-aos-delay="600"
               data-aos-duration="700"
               className="card"
               style={{
@@ -182,24 +133,21 @@ function Portfolio(props) {
                 border: props.mode === "light" ? "whitesmoke" : "#404040",
               }}
             >
-              <a href="https://vaibhavprasad54.github.io/Weather_App">
-                <img className="portfolioImg" src={weatherAppImage} alt="" />
-              </a>
               <div className="card-body">
                 <h5 className="card-title" style={{ color: "#a9792b" }}>
-                  Weather App
+                  Dev.to Articles
                 </h5>
                 <p className="card-text">
-                  This weather app displays the weather along with different
-                  climate variables of any city you search for.
+                  Welcome to my Dev.to world! Here, I share my journey as a
+                  self-taught developer. This is to help keep tabs with my
+                  progress this far
                 </p>
                 <a
-                  href="https://github.com/vaibhavprasad54/Weather_App"
+                  href="https://dev.to/kuchotony"
                   className="btn cardBtn"
                   target="#"
                 >
-                  {" "}
-                  <i class="fa-brands fa-github"></i> Github
+                  Read Articles
                 </a>
               </div>
             </div>

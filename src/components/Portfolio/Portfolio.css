@@ -1,21 +1,20 @@
 .portfolio {
   width: 100vw;
-  height: 85vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: -10px;
   background-color: #a9792b;
+  margin-top: -80px;
 }
 
 .portfolioHeading {
-  color: #2a2a2a;
+  color: #fff;
   font-size: 1.7rem;
-  margin-top: 10px;
-  opacity: 0.3;
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 body {
@@ -34,7 +33,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80vw;
 }
 
 .card {
