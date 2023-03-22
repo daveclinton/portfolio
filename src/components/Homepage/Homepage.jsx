@@ -1,26 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import * as React from "react";
 import "./Homepage.css";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import Lottie from "lottie-web";
 
 function Homepage(props) {
-  const container = useRef(null);
-
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
-
-  useEffect(() => {
-    Lottie.loadAnimation({
-      container: container.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: require("../../Assets/lf30_editor_ixjnsq85.json"),
-    });
-  }, []);
-
   return (
     <>
       <section
@@ -58,13 +40,29 @@ function Homepage(props) {
                 </a>
               </div>
             </div>
-            <div
+            <div className={`card-body container box-style`}>
+              <h5 className="card-title" style={{ color: "#a9792b" }}>
+                In development
+              </h5>
+              <p className="card-text">
+                To improve your experience, I am currently working on the
+                backend of this application to provide a seamless experience. I
+                am utilizing Node Express and MongoDB.
+              </p>
+              <a
+                href="https://github.com/daveclinton/blog-backend"
+                className={`btn cardBtn call-Btn`}
+                target="#"
+              >
+                <i class="fa-brands fa-github"></i> View Code
+              </a>
+            </div>
+            {/* <div
               data-aos="fade-left"
               data-aos-delay="400"
               className="container "
-              ref={container}
               style={{ paddingBottom: "10px" }}
-            ></div>
+            ></div> */}
           </div>
         </div>
       </section>

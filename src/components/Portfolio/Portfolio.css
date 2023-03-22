@@ -119,5 +119,6 @@ body {
 @media only screen and (min-width: 340px) and (max-width: 780px) {
   .portfolio {
     height: auto;
+    margin-top: -20px;
   }
 }
