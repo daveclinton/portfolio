@@ -20,11 +20,16 @@ function About(props) {
               <div className={`btn cardBtn call-Btn`}>
                 Javascript/TypeScript
               </div>
-              <div className={`btn cardBtn call-Btn`}>Html&Css</div>
+              <div className={`btn cardBtn call-Btn`}>HTML&CSS</div>
               <div className={`btn cardBtn call-Btn`}>Python</div>
-              <div className={`btn cardBtn call-Btn`}>React</div>
+              <div className={`btn cardBtn call-Btn`}>React js</div>
               <div className={`btn cardBtn call-Btn`}>Django</div>
-              <div className={`btn cardBtn call-Btn`}>Node Js & Express</div>
+              <div className={`btn cardBtn call-Btn`}>
+                Node Js & The Express Framework
+              </div>
+              <div className={`btn cardBtn call-Btn`}>
+                MongoDB & Mongoose Library
+              </div>
             </div>
           </div>
           <div
