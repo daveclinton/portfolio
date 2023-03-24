@@ -23,7 +23,7 @@ function Homepage(props) {
                 Hey there, <span className="myName">I'm David</span>
               </h2>
               <p data-aos="fade-up" data-aos-delay="300" className="lead my-4">
-                I am a Frontend Developer and Technical Writer based in Nairobi
+                I am a Frontend Developer and Technical Author based in Nairobi
                 Kenya
               </p>
               <div className="buttonsHome">
@@ -57,12 +57,6 @@ function Homepage(props) {
                 <i class="fa-brands fa-github"></i> View Code
               </a>
             </div>
-            {/* <div
-              data-aos="fade-left"
-              data-aos-delay="400"
-              className="container "
-              style={{ paddingBottom: "10px" }}
-            ></div> */}
           </div>
         </div>
       </section>

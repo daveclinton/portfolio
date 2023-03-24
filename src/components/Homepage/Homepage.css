@@ -63,6 +63,10 @@
   color: #a9792b !important;
   border-color: #a9792b !important;
 }
+.downloadCvBtn {
+  background-color: #a9792b !important;
+  color: #fff !important;
+}
 
 .socialIcons {
   /* margin-left: -22px; */

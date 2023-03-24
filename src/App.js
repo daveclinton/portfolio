@@ -3,7 +3,6 @@ import About from "./components/About/About";
 import Homepage from "./components/Homepage/Homepage";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact/Contact";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -24,7 +23,6 @@ function App() {
       <Homepage homepageImage="../" mode={mode} />
       <Portfolio mode={mode} />
       <About mode={mode} />
-      <Contact mode={mode} />
     </>
   );
 }

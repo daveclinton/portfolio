@@ -33,12 +33,11 @@
 
 .skills {
   width: 415px;
-  height: 345px;
+  height: 300px;
   display: flex;
-  flex-wrap: wrap;
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 5px;
 }
 
 .html,
@@ -125,4 +124,16 @@
   .aboutLeftHeading > h2 {
     padding-top: 20px;
   }
+}
+.call-Btn {
+  width: 100%;
+  background-color: #fff !important;
+  color: #a9792b !important;
+  border-color: #a9792b !important;
+}
+.call-Btn:hover {
+  width: 100%;
+  background-color: #fff !important;
+  color: #a9792b !important;
+  border-color: #a9792b !important;
 }

@@ -39,20 +39,12 @@ const Navbar = (props) => {
                   README.md
                 </a>
               </li>
-              <li className="nav-item">
-                <a href="#contact" className="nav-link">
-                  Contact
-                </a>
-              </li>
+              <div
+                className={` text-${props.mode === "light" ? "dark" : "light"}`}
+              >
+                <FaMoon onClick={props.toggleMode} cursor="pointer" />
+              </div>
             </ul>
-
-            <div
-              className={`form-check form-switch text-${
-                props.mode === "light" ? "dark" : "light"
-              }`}
-            >
-              <FaMoon onClick={props.toggleMode} cursor="pointer" />
-            </div>
           </div>
         </div>
       </nav>
