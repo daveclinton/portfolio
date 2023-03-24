@@ -23,6 +23,7 @@ function Homepage(props) {
                 Hey there, <span className="myName">I'm David</span>
               </h2>
               <p data-aos="fade-up" data-aos-delay="300" className="lead my-4">
+                I am a Frontend Developer and Technical Author based in Nairobi
                 Kenya
               </p>
               <div className="buttonsHome">
