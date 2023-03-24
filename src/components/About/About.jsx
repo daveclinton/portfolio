@@ -14,17 +14,17 @@ function About(props) {
         <div className="aboutContainer">
           <div data-aos="slide-right" className="aboutLeft">
             <div className="aboutLeftHeading">
-              <h2> Skills </h2>
+              <h2 style={{ color: "white" }}> My Tech Stack </h2>
             </div>
             <div className="skills">
               <div className={`btn cardBtn call-Btn`}>
                 Javascript/TypeScript
               </div>
-              <div className={`btn cardBtn call-Btn`}>HTML AND CSS</div>
-              <div className={`btn cardBtn call-Btn`}>PYTHON</div>
-              <div className={`btn cardBtn call-Btn`}>REACT</div>
-              <div className={`btn cardBtn call-Btn`}>DJANGO</div>
-              <div className={`btn cardBtn call-Btn`}>EXPRESS</div>
+              <div className={`btn cardBtn call-Btn`}>Html&Css</div>
+              <div className={`btn cardBtn call-Btn`}>Python</div>
+              <div className={`btn cardBtn call-Btn`}>React</div>
+              <div className={`btn cardBtn call-Btn`}>Django</div>
+              <div className={`btn cardBtn call-Btn`}>Node Js & Express</div>
             </div>
           </div>
           <div
