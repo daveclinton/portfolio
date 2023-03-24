@@ -1,0 +1,102 @@
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.myName {
+  color: #a9792b;
+}
+
+.downloadCvBtn {
+  background-color: red;
+  color: white;
+}
+
+.instaIcon {
+  width: 50px;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.instaIcon:hover {
+  transform: scale(1.2);
+}
+
+.box-style {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+}
+.socialMediaIcons {
+  width: 185px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -24px;
+}
+
+.img-fluid {
+  width: 40% !important;
+}
+
+.left {
+  width: 100%;
+}
+
+.left > h2 {
+  font-size: 2.5rem;
+}
+
+.left > p {
+  font-size: 1.2rem;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+}
+
+.downloadCvBtn:hover {
+  background-color: #fff !important;
+  color: #a9792b !important;
+  border-color: #a9792b !important;
+}
+.downloadCvBtn {
+  background-color: #a9792b !important;
+  color: #fff !important;
+}
+
+.socialIcons {
+  /* margin-left: -22px; */
+  margin-top: 10px;
+}
+
+.call-Btn {
+  width: 100%;
+}
+.call-Btn:hover {
+  background-color: #fff !important;
+  color: #a9792b !important;
+  border-color: #a9792b !important;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 575px) {
+  .buttonsHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-style {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1650px) {
+  .socialIcons {
+    margin-left: -22px;
+  }
+}
