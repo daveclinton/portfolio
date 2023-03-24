@@ -45,9 +45,10 @@ function Homepage(props) {
                 In development
               </h5>
               <p className="card-text">
-                To improve your experience, I am currently working on the
-                backend of this application to provide a seamless experience. I
-                am utilizing Node Express and MongoDB.
+                To add on my experience, I am currently working on the backend
+                of my blog application coming up soon to provide a seamless
+                experience to my network. I am utilizing Node.js with the
+                Express framework.
               </p>
               <a
                 href="https://github.com/daveclinton/blog-backend"
