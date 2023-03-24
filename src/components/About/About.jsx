@@ -20,7 +20,7 @@ function About(props) {
               <div className={`btn cardBtn call-Btn`}>
                 Javascript/TypeScript
               </div>
-              <div className={`btn cardBtn call-Btn`}>HMTL AND CSS</div>
+              <div className={`btn cardBtn call-Btn`}>HTML AND CSS</div>
               <div className={`btn cardBtn call-Btn`}>PYTHON</div>
               <div className={`btn cardBtn call-Btn`}>REACT</div>
               <div className={`btn cardBtn call-Btn`}>DJANGO</div>
